@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "name": "소현생정",
+    "handle": "@sohyun_guide",
+    "tagline": "소비를 현명하게, 가성비 꿀템 리뷰",
+    "bio": "직접 써보고 가격 대비 만족도를 정리합니다.",
+    "image": "assets/profile.jpg"
+  },
+
+  "notice": {
+    "show": false,
+    "text": "",
+    "url": ""
+  },
+
+  "links": [
+    { "id": "blog", "title": "소현생정 블로그", "sub": "가성비 꿀템 리뷰 · 생활정보", "url": "https://blog.naver.com/teanotcar", "icon": "blog", "highlight": true },
+    { "id": "contact", "title": "협업 문의", "sub": "revi404@naver.com", "url": "mailto:revi404@naver.com", "icon": "mail" }
+  ],
+
+  "blog": {
+    "id": "teanotcar",
+    "perCategory": 4,
+    "categories": [
+      { "name": "리빙포인트 I 꿀템", "label": "꿀템·리빙", "chip": "tip" },
+      { "name": "뷰티 I 패션", "label": "뷰티·패션", "chip": "beauty" },
+      { "name": "여행 I 식도락", "label": "여행·맛집", "chip": "food" },
+      { "name": "재테크 I 청약노트", "label": "청약노트", "chip": "stay" }
+    ]
+  },
+
+  "affiliate": {
+    "rules": [
+      { "partner": "쿠팡", "match": ["link.coupang.com", "coupa.ng"] },
+      { "partner": "여기어때", "match": ["yeogi.com", "goodchoice.kr", "yeogi.page.link"] },
+      { "partner": "마이리얼트립", "match": ["myrealtrip"] },
+      { "partner": "제휴", "match": ["sohyunguide"] }
+    ],
+    "hidden": [],
+    "disclosure": "이 페이지의 일부 링크는 쿠팡 파트너스 등 제휴 활동의 일환으로, 구매 시 이에 따른 일정액의 수수료를 제공받을 수 있습니다."
+  },
+
+  "products": [],
+
+  "goatcounter": ""
+}
