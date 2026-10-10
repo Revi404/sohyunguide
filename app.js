@@ -32,7 +32,7 @@
 
     // 바로가기
     $("#links").innerHTML = cfg.links.filter((l) => !l.hidden).map((l) => `
-      <a class="link${l.highlight ? " hl" : ""}" href="${esc(l.url)}" ${l.url.startsWith("mailto:") ? "" : 'target="_blank" rel="noopener"'} data-track="${esc(l.id)}">
+      <a class="link${l.highlight ? " hl" : ""}${l.color ? " " + esc(l.color) : ""}" href="${esc(l.url)}" ${l.url.startsWith("mailto:") ? "" : 'target="_blank" rel="noopener"'} data-track="${esc(l.id)}">
         <span class="ic">${ICONS[l.icon] || ICONS.link}</span>
         <span class="tx"><span class="t">${esc(l.title)}</span>${l.sub ? `<span class="s">${esc(l.sub)}</span>` : ""}</span>
         <span class="go" aria-hidden="true">→</span>

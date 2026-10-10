@@ -25,7 +25,8 @@
       "title": "소현 인스타그램",
       "sub": "@sohyun_guide · 가성비 꿀템 릴스",
       "url": "https://www.instagram.com/sohyun_guide/",
-      "icon": "insta"
+      "icon": "insta",
+      "color": "pink"
     },
     {
       "id": "contact",

@@ -55,6 +55,10 @@ img { display: block; max-width: 100%; }
 .link.hl { background: var(--accent-deep); border-color: transparent; color: var(--on-accent); }
 .link.hl .ic { background: var(--highlight); color: var(--accent-deep); }
 .link.hl .s, .link.hl .go { color: rgba(251,255,246,.82); }
+/* 인스타그램 핑크 버튼 */
+.link.pink { background: #d62a6b; border-color: transparent; color: #fff; }
+.link.pink .ic { background: #fde4ee; color: #c8235f; }
+.link.pink .s, .link.pink .go { color: rgba(255,255,255,.88); }
 
 /* 탭 */
 .tabs { position: sticky; top: 0; z-index: 5; display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; margin: 0 -4px 14px; background: var(--paper-2); border: 1px solid var(--line-soft); border-radius: var(--r-pill); box-shadow: var(--shadow-sm); }
