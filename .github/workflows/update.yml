@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths-ignore: ["data/**", "assets/thumbs/**"]
   schedule:
-    - cron: "17 */3 * * *"   # 3시간마다 (UTC 기준 17분)
+    - cron: "7,37 * * * *"   # 30분마다 시도 (GitHub 사정으로 지연·누락될 수 있어 촘촘하게)
   workflow_dispatch: {}
 
 permissions:
