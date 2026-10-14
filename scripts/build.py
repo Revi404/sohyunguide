@@ -13,6 +13,7 @@ import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -133,44 +134,113 @@ def decode_thumb(src: str) -> str:
     return src
 
 
+PRICE_RE = re.compile(r"(\d{1,3}(?:,\d{3})+|\d{3,})\s*원")
+MRT_KIND = [("accommodation.", "숙소"), ("/flights", "항공"), ("experiences.", "투어·티켓")]
+META_FILE = DATA / "link-meta.json"
+_meta: dict = {}
+
+
+def _txt(fragment: str) -> str:
+    t = re.sub(r"<[^>]+>", " ", fragment)
+    return re.sub(r"\s+", " ", html.unescape(t)).strip()
+
+
+def _no_redirect(url: str) -> str:
+    """단축 링크가 가리키는 주소만 확인(따라가지 않음)."""
+    class NoRedir(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self, *a, **k):  # noqa: ANN002, ANN003
+            return None
+    op = urllib.request.build_opener(NoRedir)
+    try:
+        op.open(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=15)
+    except urllib.error.HTTPError as e:
+        return e.headers.get("Location", "") or ""
+    except Exception:  # noqa: BLE001
+        return ""
+    return ""
+
+
+def link_meta(url: str, partner: str) -> dict:
+    """제휴 링크의 상품 종류·대표 이미지·상품명 (링크당 1회만 조회해 캐시)."""
+    if url in _meta:
+        return _meta[url]
+    info = {"kind": "", "image": "", "ogTitle": ""}
+    if partner == "마이리얼트립" and "myrealt.rip/" in url:
+        loc = _no_redirect(url)
+        dest = urllib.parse.parse_qs(urllib.parse.urlparse(loc).query).get("return_url", [loc])[0]
+        info["kind"] = next((k for key, k in MRT_KIND if key in dest), "")
+        if dest.startswith("https://experiences.myrealtrip.com/"):
+            try:
+                pg = fetch(dest.split("?")[0]).decode("utf-8", "replace")
+                m = re.search(r'<meta property="og:image" content="([^"]+)"', pg)
+                t = re.search(r'<meta property="og:title" content="([^"]+)"', pg)
+                info["image"] = html.unescape(m.group(1)) if m else ""
+                info["ogTitle"] = html.unescape(t.group(1)).strip() if t else ""
+            except Exception as e:  # noqa: BLE001
+                print(f"  ! 상품 정보 실패 {url}: {e}", file=sys.stderr)
+        time.sleep(0.4)
+    _meta[url] = info
+    return info
+
+
 def extract_affiliates(post: dict) -> list[dict]:
     url = f"https://blog.naver.com/PostView.naver?blogId={BLOG_ID}&logNo={post['logNo']}&redirect=Dlog&widgetTypeCall=true&directAccess=false"
     page = fetch(url).decode("utf-8", "replace")
     found: dict[str, dict] = {}
+
+    def add(href: str, title: str = "", thumb: str = "", price: str = "") -> None:
+        href = html.unescape(html.unescape(href)).strip()
+        p = partner_of(href)
+        if not p:
+            return
+        it = found.setdefault(href, {"url": href, "partner": p, "titles": [], "thumbSrc": "", "price": "", "card": ""})
+        if title:
+            it["titles"].append(clean_title(title, p))
+        it["thumbSrc"] = it["thumbSrc"] or thumb
+        it["price"] = it["price"] or price
 
     # 1) 링크 카드(OG 링크) — 제목·썸네일 포함
     for block in re.findall(r'<div class="se-component se-oglink.*?</script>', page, re.S):
         link = re.search(r'<a href="([^"]+)"', block)
         if not link:
             continue
-        href = html.unescape(link.group(1))
-        p = partner_of(href)
-        if not p:
-            continue
         title = re.search(r'class="se-oglink-title">(.*?)</strong>', block, re.S)
         img = re.search(r'<img src="([^"]+)"', block)
-        found.setdefault(href, {
-            "url": href, "partner": p,
-            "title": clean_title(title.group(1), p) if title else "",
-            "thumbSrc": decode_thumb(img.group(1)) if img else "",
-        })
+        href = html.unescape(html.unescape(link.group(1))).strip()
+        add(href, thumb=decode_thumb(img.group(1)) if img else "")
+        if title and href in found:
+            found[href]["card"] = clean_title(title.group(1), found[href]["partner"])
 
-    # 2) 본문 텍스트 링크
-    for m in re.finditer(r'<a\s[^>]*href="(https?://[^"]+)"[^>]*>(.*?)</a>', page, re.S):
-        href = html.unescape(m.group(1))
-        p = partner_of(href)
-        if not p or href in found:
-            continue
-        text = re.sub(r"<[^>]+>", "", m.group(2)).strip()
-        if text.startswith("http"):
-            text = ""
-        found[href] = {"url": href, "partner": p, "title": clean_title(text, p), "thumbSrc": ""}
+    # 2) 표 안의 링크 — 같은 줄의 가격도 함께
+    for row in re.findall(r"<tr[^>]*>(?:(?!<tr[\s>]).)*?</tr>", page, re.S):  # 가장 안쪽 줄만
+        price = PRICE_RE.search(_txt(row))
+        for m in re.finditer(r'<a\s[^>]*href="(https?://[^"]+)"[^>]*>(.*?)</a>', row, re.S):
+            add(m.group(1), _txt(m.group(2)), price=(price.group(1) + "원") if price else "")
+
+    # 3) 본문 텍스트 링크 — 바로 뒤 괄호 속 가격 "(30,000원"
+    for m in re.finditer(r'<a\s([^>]*)href="(https?://[^"]+)"([^>]*)>(.*?)</a>(.{0,200})', page, re.S):
+        if "se-oglink" in m.group(1) + m.group(3):
+            continue  # 링크 카드는 1)에서 처리
+        after = PRICE_RE.match(_txt(m.group(5)).lstrip("( "))
+        t = _txt(m.group(4))
+        add(m.group(2), "" if t.startswith("http") else t, price=(after.group(1) + "원") if after else "")
+
+    # 4) 이미지·배너에 걸린 링크
+    for m in re.finditer(r'"link"\s*:\s*"(https?://[^"]+)"', page):
+        add(m.group(1))
 
     items = []
     for it in found.values():
+        names = [re.sub(r"\s*([가-힣]*러\s*가기|바로\s*가기|예약하기)\s*$", "", t).strip() for t in it.pop("titles")]
+        names = [n for n in names if n and not n.startswith("http") and not re.search(r"가기|클릭|링크|최저가|여기", n)]
+        meta = link_meta(it["url"], it["partner"])
+        card = it.pop("card")
+        title = (max(names, key=len) if names else "") or card or meta["ogTitle"] or post["title"]
         it.update({
-            "title": it["title"] or post["title"],
-            "thumbSrc": it["thumbSrc"] or post["thumbSrc"],
+            "title": title,
+            "kind": meta["kind"],
+            # 숙소는 상품 사진을 가져올 수 없어(사이트 차단) 글 썸네일 반복 대신 아이콘으로 표시
+            "thumbSrc": meta["image"] or it["thumbSrc"] or ("" if meta["kind"] == "숙소" else post["thumbSrc"]),
             "postTitle": post["title"],
             "postUrl": post["url"],
             "category": post["category"],
@@ -184,6 +254,8 @@ def extract_affiliates(post: dict) -> list[dict]:
 def main() -> None:
     DATA.mkdir(exist_ok=True)
     cache = json.loads(CACHE_FILE.read_text(encoding="utf-8")) if CACHE_FILE.exists() else {}
+    if META_FILE.exists():
+        _meta.update(json.loads(META_FILE.read_text(encoding="utf-8")))
     info, posts = read_rss()
     print(f"RSS: {len(posts)}개 글")
 
@@ -225,11 +297,13 @@ def main() -> None:
                 continue
             seen.add(it["url"])
             affs.append({k: it[k] for k in ("title", "url", "partner", "postTitle", "postUrl", "category", "date")}
+                        | {"price": it.get("price", ""), "kind": it.get("kind", "")}
                         | {"thumb": save_thumb(it["thumbSrc"])})
     affs.sort(key=lambda a: a["date"], reverse=True)
 
     feed = {"updated": datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "posts": by_cat, "affiliates": affs}
     FEED_FILE.write_text(json.dumps(feed, ensure_ascii=False, indent=1), encoding="utf-8")
+    META_FILE.write_text(json.dumps(_meta, ensure_ascii=False, indent=1), encoding="utf-8")
     CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
 
     # 쓰지 않는 썸네일 정리

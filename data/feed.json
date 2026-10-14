@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14 10:47",
+ "updated": "2026-10-14 11:56",
  "posts": {
   "리빙포인트 I 꿀템": [
    {
@@ -107,7 +107,165 @@
    "postUrl": "https://blog.naver.com/teanotcar/224439514224",
    "category": "뷰티 I 패션",
    "date": "2026-10-12",
+   "price": "",
+   "kind": "",
    "thumb": "assets/thumbs/fc27d91aac9a883b.jpg"
+  },
+  {
+   "title": "라쿠투어 다자이후·유후인·벳푸",
+   "url": "https://myrealt.rip/v2XZf2",
+   "partner": "마이리얼트립",
+   "postTitle": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224438254164",
+   "category": "여행 I 식도락",
+   "date": "2026-10-11",
+   "price": "56,900원",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/587df5985d76b8fc.jpg"
+  },
+  {
+   "title": "인디고트래블 버스투어",
+   "url": "https://myrealt.rip/v2Xcd1",
+   "partner": "마이리얼트립",
+   "postTitle": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224438254164",
+   "category": "여행 I 식도락",
+   "date": "2026-10-11",
+   "price": "59,000원",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/640a25ef43e4535e.jpg"
+  },
+  {
+   "title": "유투어버스",
+   "url": "https://myrealt.rip/v2Xee8",
+   "partner": "마이리얼트립",
+   "postTitle": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224438254164",
+   "category": "여행 I 식도락",
+   "date": "2026-10-11",
+   "price": "49,900원",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/790253add1684929.jpg"
+  },
+  {
+   "title": "라쿠투어 히타 코스",
+   "url": "https://myrealt.rip/v2Xg88",
+   "partner": "마이리얼트립",
+   "postTitle": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224438254164",
+   "category": "여행 I 식도락",
+   "date": "2026-10-11",
+   "price": "50,900원",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/f0810cb2615efede.jpg"
+  },
+  {
+   "title": "지하철 패스 1일권 (공항 수령)",
+   "url": "https://myrealt.rip/v2YL70",
+   "partner": "마이리얼트립",
+   "postTitle": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224438254164",
+   "category": "여행 I 식도락",
+   "date": "2026-10-11",
+   "price": "2,783원",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/c38fb7b79591bd49.jpg"
+  },
+  {
+   "title": "시내 1일 자유승차권 (그린패스)",
+   "url": "https://myrealt.rip/v2YP4e",
+   "partner": "마이리얼트립",
+   "postTitle": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224438254164",
+   "category": "여행 I 식도락",
+   "date": "2026-10-11",
+   "price": "5,107원",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/23e28a82044f8dd2.jpg"
+  },
+  {
+   "title": "일본 eSIM 5G 데이터 무제한",
+   "url": "https://myrealt.rip/v2Xu2f",
+   "partner": "마이리얼트립",
+   "postTitle": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224438254164",
+   "category": "여행 I 식도락",
+   "date": "2026-10-11",
+   "price": "960원",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/b919bc3637615b55.jpg"
+  },
+  {
+   "title": "일본 유심 공항 수령",
+   "url": "https://myrealt.rip/v2Xy66",
+   "partner": "마이리얼트립",
+   "postTitle": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224438254164",
+   "category": "여행 I 식도락",
+   "date": "2026-10-11",
+   "price": "2,800원",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/d528eadc79d1b48e.jpg"
+  },
+  {
+   "title": "호텔 마이스테이스 후쿠오카 텐진",
+   "url": "https://myrealt.rip/v2Z692",
+   "partner": "마이리얼트립",
+   "postTitle": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224438254164",
+   "category": "여행 I 식도락",
+   "date": "2026-10-11",
+   "price": "329,794원",
+   "kind": "숙소",
+   "thumb": ""
+  },
+  {
+   "title": "호텔 포르자 하카타에키 치쿠시구치 Ⅱ",
+   "url": "https://myrealt.rip/v9vr6b",
+   "partner": "마이리얼트립",
+   "postTitle": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224438254164",
+   "category": "여행 I 식도락",
+   "date": "2026-10-11",
+   "price": "396,655원",
+   "kind": "숙소",
+   "thumb": ""
+  },
+  {
+   "title": "니시테츠 그랜드 호텔",
+   "url": "https://myrealt.rip/v2Z7fb",
+   "partner": "마이리얼트립",
+   "postTitle": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224438254164",
+   "category": "여행 I 식도락",
+   "date": "2026-10-11",
+   "price": "519,342원",
+   "kind": "숙소",
+   "thumb": ""
+  },
+  {
+   "title": "더 베이직스 후쿠오카",
+   "url": "https://myrealt.rip/v2Z482",
+   "partner": "마이리얼트립",
+   "postTitle": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224438254164",
+   "category": "여행 I 식도락",
+   "date": "2026-10-11",
+   "price": "579,009원",
+   "kind": "숙소",
+   "thumb": ""
+  },
+  {
+   "title": "후쿠오카 시내 야간 스냅 1시간",
+   "url": "https://myrealt.rip/v2YFc8",
+   "partner": "마이리얼트립",
+   "postTitle": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224438254164",
+   "category": "여행 I 식도락",
+   "date": "2026-10-11",
+   "price": "30,000원",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/148df2f897ded4f2.jpg"
   },
   {
    "title": "아로퓸 파리 향기부스터 1KG, 1kg, 1개",
@@ -117,6 +275,8 @@
    "postUrl": "https://blog.naver.com/teanotcar/224437049937",
    "category": "리빙포인트 I 꿀템",
    "date": "2026-10-10",
+   "price": "",
+   "kind": "",
    "thumb": "assets/thumbs/6039f404019ffd41.jpg"
   },
   {
@@ -127,16 +287,20 @@
    "postUrl": "https://blog.naver.com/teanotcar/224436960072",
    "category": "리빙포인트 I 꿀템",
    "date": "2026-10-10",
+   "price": "",
+   "kind": "",
    "thumb": "assets/thumbs/f8aade49a3da935b.jpg"
   },
   {
-   "title": "에어프레미아 신규 회원 5% 할인 받으러 가기",
+   "title": "에어프레미아 신규 회원 5% 할인",
    "url": "https://airpremia.onelink.me/AfuO?af_android_url=https%3A%2F%2Fwww.airpremia.com%2Fevent%2FpromotionDetail%3FdetailId%3D370%26utm_source%3Dmyrealtrip%26utm_medium%3Dsohyunguide%26utm_campaign%3D261001_PFM_ongoing_member_benefits_ALL_AI_CPS%26utm_content%3D5percent_discountcode&af_web_dp=https%3A%2F%2Fwww.airpremia.com%2Fevent%2FpromotionDetail%3FdetailId%3D370%26utm_source%3Dmyrealtrip%26utm_medium%3Dsohyunguide%26utm_campaign%3D261001_PFM_ongoing_member_benefits_ALL_AI_CPS%26utm_content%3D5percent_discountcode&af_xp=custom&pid=myrealtrip&is_retargeting=true&af_reengagement_window=7d&af_dp=airpremia%3A%2F%2F&af_click_lookback=14d&af_channel=myrealtrip&af_adset=261001_PFM_ongoing_member_benefits_ALL_AI_CPS&af_ad=5percent_discountcode&c=261001_PFM_ongoing_member_benefits_ALL_AI_CPS&deep_link_value=airpremia%3A%2F%2Fwebview-full-page%3Furl%3Dhttps%253a%252f%252fwww.airpremia.com%252fevent%252fpromotionDetail%253fdetailId%253d370%2526utm_source%253dmyrealtrip%2526utm_medium%253dsohyunguide%2526utm_campaign%253d261001_PFM_ongoing_member_benefits_ALL_AI_CPS%2526utm_content%253d5percent_discountcode&af_ios_url=https%3A%2F%2Fwww.airpremia.com%2Fevent%2FpromotionDetail%3FdetailId%3D370%26utm_source%3Dmyrealtrip%26utm_medium%3Dsohyunguide%26utm_campaign%3D261001_PFM_ongoing_member_benefits_ALL_AI_CPS%26utm_content%3D5percent_discountcode&af_medium=sohyunguide",
    "partner": "마이리얼트립",
    "postTitle": "에어프레미아 항공권 할인 받는 법 | 신규가입 혜택·프로모션코드 적용 순서",
    "postUrl": "https://blog.naver.com/teanotcar/224428863105",
    "category": "여행 I 식도락",
    "date": "2026-10-02",
+   "price": "",
+   "kind": "",
    "thumb": "assets/thumbs/91a36512e77517c0.jpg"
   }
  ]
