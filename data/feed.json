@@ -1,6 +1,40 @@
 {
- "updated": "2026-10-17 18:10",
+ "updated": "2026-10-17 22:09",
  "posts": {
+  "여행 I 식도락": [
+   {
+    "title": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+    "url": "https://blog.naver.com/teanotcar/224444843361",
+    "date": "2026-10-17",
+    "summary": "안녕하세요, 소현생정이에요! 겨울이 다가오니까 따뜻한 바다가 자꾸 생각나죠? 근데 사이판은 패키지랑 에어텔, 자유여행이 섞여 있어서 비교가 은근 어렵더라고요. 그",
+    "category": "여행 I 식도락",
+    "thumb": "assets/thumbs/f0379178a7a5e898.jpg"
+   },
+   {
+    "title": "다낭 3박5일 패키지 비교 | 5성 호텔·노쇼핑 3종 가격과 자유여행 경비",
+    "url": "https://blog.naver.com/teanotcar/224442951864",
+    "date": "2026-10-15",
+    "summary": "안녕하세요, 소현생정이에요! ✈️ 추워지기 시작하니까 따뜻한 데로 떠나고 싶어지죠? 근데 막상 알아보면 패키지가 나은지, 자유여행이 나은지 헷갈리더라고요. 그래서",
+    "category": "여행 I 식도락",
+    "thumb": "assets/thumbs/2615e97612b7d74b.jpg"
+   },
+   {
+    "title": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
+    "url": "https://blog.naver.com/teanotcar/224438254164",
+    "date": "2026-10-11",
+    "summary": "안녕하세요, 소현생정이에요! ✈️ 처음 가는 후쿠오카, 며칠이나 잡아야 할지 근교는 어떻게 다녀와야 할지 막막하셨죠? 그래서 후쿠오카 2박3일 일정을 근교 버스투",
+    "category": "여행 I 식도락",
+    "thumb": "assets/thumbs/5ad09d3f043bbeb3.jpg"
+   },
+   {
+    "title": "에어프레미아 항공권 할인 받는 법 | 신규가입 혜택·프로모션코드 적용 순서",
+    "url": "https://blog.naver.com/teanotcar/224428863105",
+    "date": "2026-10-02",
+    "summary": "안녕하세요, 소현생정이에요! 오늘은 에어프레미아 항공권 할인 받는 법, 꿀팁으로 정리해 왔어요 ※ 이 글은 제휴 링크를 포함하고 있어요. 에어프레미아 처음 이용하",
+    "category": "여행 I 식도락",
+    "thumb": "assets/thumbs/91a36512e77517c0.jpg"
+   }
+  ],
   "리빙포인트 I 꿀템": [
    {
     "title": "감 보관하는 법 | 단감은 0도 전후 저온, 홍시는 후숙 뒤 냉장 순서",
@@ -69,32 +103,6 @@
     "thumb": "assets/thumbs/c3c1d659c72aea29.jpg"
    }
   ],
-  "여행 I 식도락": [
-   {
-    "title": "다낭 3박5일 패키지 비교 | 5성 호텔·노쇼핑 3종 가격과 자유여행 경비",
-    "url": "https://blog.naver.com/teanotcar/224442951864",
-    "date": "2026-10-15",
-    "summary": "안녕하세요, 소현생정이에요! ✈️ 추워지기 시작하니까 따뜻한 데로 떠나고 싶어지죠? 근데 막상 알아보면 패키지가 나은지, 자유여행이 나은지 헷갈리더라고요. 그래서",
-    "category": "여행 I 식도락",
-    "thumb": "assets/thumbs/2615e97612b7d74b.jpg"
-   },
-   {
-    "title": "후쿠오카 2박3일 일정 짜는 법 | 유후인 버스투어·교통패스·숙소 가격 비교",
-    "url": "https://blog.naver.com/teanotcar/224438254164",
-    "date": "2026-10-11",
-    "summary": "안녕하세요, 소현생정이에요! ✈️ 처음 가는 후쿠오카, 며칠이나 잡아야 할지 근교는 어떻게 다녀와야 할지 막막하셨죠? 그래서 후쿠오카 2박3일 일정을 근교 버스투",
-    "category": "여행 I 식도락",
-    "thumb": "assets/thumbs/5ad09d3f043bbeb3.jpg"
-   },
-   {
-    "title": "에어프레미아 항공권 할인 받는 법 | 신규가입 혜택·프로모션코드 적용 순서",
-    "url": "https://blog.naver.com/teanotcar/224428863105",
-    "date": "2026-10-02",
-    "summary": "안녕하세요, 소현생정이에요! 오늘은 에어프레미아 항공권 할인 받는 법, 꿀팁으로 정리해 왔어요 ※ 이 글은 제휴 링크를 포함하고 있어요. 에어프레미아 처음 이용하",
-    "category": "여행 I 식도락",
-    "thumb": "assets/thumbs/91a36512e77517c0.jpg"
-   }
-  ],
   "뷰티 I 패션": [
    {
     "title": "스킨푸드 블루캐모마일 크림 3개월 내돈내산 후기 | 수부지 여름 수분크림",
@@ -107,6 +115,174 @@
   ]
  },
  "affiliates": [
+  {
+   "title": "사이판 PIC 일반팩 3박5일",
+   "url": "https://myrealt.rip/wLsh01",
+   "partner": "마이리얼트립",
+   "postTitle": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "postUrl": "https://blog.naver.com/teanotcar/224444843361",
+   "category": "여행 I 식도락",
+   "date": "2026-10-17",
+   "price": "989,000원",
+   "kind": "",
+   "thumb": "assets/thumbs/f0379178a7a5e898.jpg"
+  },
+  {
+   "title": "PIC 패밀리팩 성인2+소아2",
+   "url": "https://myrealt.rip/wLsi11",
+   "partner": "마이리얼트립",
+   "postTitle": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "postUrl": "https://blog.naver.com/teanotcar/224444843361",
+   "category": "여행 I 식도락",
+   "date": "2026-10-17",
+   "price": "649,000원",
+   "kind": "",
+   "thumb": "assets/thumbs/f0379178a7a5e898.jpg"
+  },
+  {
+   "title": "크라운플라자 NO팁·NO옵션·NO쇼핑",
+   "url": "https://myrealt.rip/wLsja5",
+   "partner": "마이리얼트립",
+   "postTitle": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "postUrl": "https://blog.naver.com/teanotcar/224444843361",
+   "category": "여행 I 식도락",
+   "date": "2026-10-17",
+   "price": "889,000원",
+   "kind": "",
+   "thumb": "assets/thumbs/f0379178a7a5e898.jpg"
+  },
+  {
+   "title": "프리미엄 마나가하 투어",
+   "url": "https://myrealt.rip/wLsm16",
+   "partner": "마이리얼트립",
+   "postTitle": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "postUrl": "https://blog.naver.com/teanotcar/224444843361",
+   "category": "여행 I 식도락",
+   "date": "2026-10-17",
+   "price": "37,900원",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/6d0c7d30045d89b1.jpg"
+  },
+  {
+   "title": "마나가하섬 풀데이·그로토 옵션 투어",
+   "url": "https://myrealt.rip/wLsndc",
+   "partner": "마이리얼트립",
+   "postTitle": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "postUrl": "https://blog.naver.com/teanotcar/224444843361",
+   "category": "여행 I 식도락",
+   "date": "2026-10-17",
+   "price": "28,900원",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/c21ffe3ce60d533a.jpg"
+  },
+  {
+   "title": "사이판 별빛투어+스냅",
+   "url": "https://myrealt.rip/wLso17",
+   "partner": "마이리얼트립",
+   "postTitle": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "postUrl": "https://blog.naver.com/teanotcar/224444843361",
+   "category": "여행 I 식도락",
+   "date": "2026-10-17",
+   "price": "99,000원",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/706d1c42797b587a.jpg"
+  },
+  {
+   "title": "사이판 eSIM 매일 5GB",
+   "url": "https://myrealt.rip/wLspbf",
+   "partner": "마이리얼트립",
+   "postTitle": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "postUrl": "https://blog.naver.com/teanotcar/224444843361",
+   "category": "여행 I 식도락",
+   "date": "2026-10-17",
+   "price": "7,380원",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/8388fb29c2dadc26.jpg"
+  },
+  {
+   "title": "사이판 USIM 매일 5GB",
+   "url": "https://myrealt.rip/wLsq16",
+   "partner": "마이리얼트립",
+   "postTitle": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "postUrl": "https://blog.naver.com/teanotcar/224444843361",
+   "category": "여행 I 식도락",
+   "date": "2026-10-17",
+   "price": "15,800원",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/604d19a1f4f75bbb.jpg"
+  },
+  {
+   "title": "아쿠아 리조트 사이판",
+   "url": "https://myrealt.rip/wLste6",
+   "partner": "마이리얼트립",
+   "postTitle": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "postUrl": "https://blog.naver.com/teanotcar/224444843361",
+   "category": "여행 I 식도락",
+   "date": "2026-10-17",
+   "price": "160,156원",
+   "kind": "숙소",
+   "thumb": ""
+  },
+  {
+   "title": "퍼시픽 아일랜드 클럽(PIC) 사이판",
+   "url": "https://myrealt.rip/wLsrc1",
+   "partner": "마이리얼트립",
+   "postTitle": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "postUrl": "https://blog.naver.com/teanotcar/224444843361",
+   "category": "여행 I 식도락",
+   "date": "2026-10-17",
+   "price": "173,326원",
+   "kind": "숙소",
+   "thumb": ""
+  },
+  {
+   "title": "크라운 플라자 리조트 사이판",
+   "url": "https://myrealt.rip/wLss47",
+   "partner": "마이리얼트립",
+   "postTitle": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "postUrl": "https://blog.naver.com/teanotcar/224444843361",
+   "category": "여행 I 식도락",
+   "date": "2026-10-17",
+   "price": "186,363원",
+   "kind": "숙소",
+   "thumb": ""
+  },
+  {
+   "title": "세렌티 호텔",
+   "url": "https://myrealt.rip/wLsu0b",
+   "partner": "마이리얼트립",
+   "postTitle": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "postUrl": "https://blog.naver.com/teanotcar/224444843361",
+   "category": "여행 I 식도락",
+   "date": "2026-10-17",
+   "price": "149,594원",
+   "kind": "숙소",
+   "thumb": ""
+  },
+  {
+   "title": "마이리얼트립 사이판 기획전",
+   "url": "https://myrealt.rip/wLskfe",
+   "partner": "마이리얼트립",
+   "postTitle": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "postUrl": "https://blog.naver.com/teanotcar/224444843361",
+   "category": "여행 I 식도락",
+   "date": "2026-10-17",
+   "price": "",
+   "kind": "",
+   "thumb": "assets/thumbs/f0379178a7a5e898.jpg"
+  },
+  {
+   "title": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "url": "https://myrealt.rip/wLslea",
+   "partner": "마이리얼트립",
+   "postTitle": "사이판 패키지 3박5일 비교 | PIC 에어텔·크라운플라자 노쇼핑 가격과 자유여행 경비",
+   "postUrl": "https://blog.naver.com/teanotcar/224444843361",
+   "category": "여행 I 식도락",
+   "date": "2026-10-17",
+   "price": "",
+   "kind": "",
+   "thumb": "assets/thumbs/f0379178a7a5e898.jpg"
+  },
   {
    "title": "골든베이 다낭 3박5일 패키지",
    "url": "https://myrealt.rip/w2RM9f",
