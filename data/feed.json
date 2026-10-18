@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18 15:31",
+ "updated": "2026-10-18 20:37",
  "posts": {
   "리빙포인트 I 꿀템": [
    {
@@ -45,6 +45,14 @@
     "thumb": "assets/thumbs/f0379178a7a5e898.jpg"
    },
    {
+    "title": "상하이 호텔 추천 | 상하이 숙소 위치 고르는 법, 난징동루·와이탄·푸동 4곳 비교",
+    "url": "https://blog.naver.com/teanotcar/224444164801",
+    "date": "2026-10-16",
+    "summary": "본 포스팅은 마이리얼트립 마케팅 파트너 활동의 일환으로 원고료를 지원받아 작성되었으며, 본문 링크를 통해 예약하시면 일정 수수료를 제공받습니다. 안녕하세요, 소현",
+    "category": "여행 I 식도락",
+    "thumb": "assets/thumbs/48a33447402e2880.jpg"
+   },
+   {
     "title": "다낭 3박5일 패키지 비교 | 5성 호텔·노쇼핑 3종 가격과 자유여행 경비",
     "url": "https://blog.naver.com/teanotcar/224442951864",
     "date": "2026-10-15",
@@ -59,14 +67,6 @@
     "summary": "안녕하세요, 소현생정이에요! ✈️ 처음 가는 후쿠오카, 며칠이나 잡아야 할지 근교는 어떻게 다녀와야 할지 막막하셨죠? 그래서 후쿠오카 2박3일 일정을 근교 버스투",
     "category": "여행 I 식도락",
     "thumb": "assets/thumbs/5ad09d3f043bbeb3.jpg"
-   },
-   {
-    "title": "에어프레미아 항공권 할인 받는 법 | 신규가입 혜택·프로모션코드 적용 순서",
-    "url": "https://blog.naver.com/teanotcar/224428863105",
-    "date": "2026-10-02",
-    "summary": "안녕하세요, 소현생정이에요! 오늘은 에어프레미아 항공권 할인 받는 법, 꿀팁으로 정리해 왔어요 ※ 이 글은 제휴 링크를 포함하고 있어요. 에어프레미아 처음 이용하",
-    "category": "여행 I 식도락",
-    "thumb": "assets/thumbs/91a36512e77517c0.jpg"
    }
   ],
   "재테크 I 청약노트": [
@@ -282,6 +282,30 @@
    "price": "",
    "kind": "",
    "thumb": "assets/thumbs/f0379178a7a5e898.jpg"
+  },
+  {
+   "title": "마이리얼트립 상하이 숙소 특가 프로모션",
+   "url": "https://myrealt.rip/wEeA91",
+   "partner": "마이리얼트립",
+   "postTitle": "상하이 호텔 추천 | 상하이 숙소 위치 고르는 법, 난징동루·와이탄·푸동 4곳 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224444164801",
+   "category": "여행 I 식도락",
+   "date": "2026-10-16",
+   "price": "",
+   "kind": "",
+   "thumb": "assets/thumbs/48a33447402e2880.jpg"
+  },
+  {
+   "title": "마이리얼트립 해외숙소 할인 쿠폰",
+   "url": "https://myrealt.rip/wEeBd5",
+   "partner": "마이리얼트립",
+   "postTitle": "상하이 호텔 추천 | 상하이 숙소 위치 고르는 법, 난징동루·와이탄·푸동 4곳 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224444164801",
+   "category": "여행 I 식도락",
+   "date": "2026-10-16",
+   "price": "",
+   "kind": "",
+   "thumb": "assets/thumbs/48a33447402e2880.jpg"
   },
   {
    "title": "골든베이 다낭 3박5일 패키지",
