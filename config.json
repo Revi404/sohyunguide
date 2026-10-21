@@ -36,14 +36,14 @@
       "items": [
         {
           "id": "richlab-blog",
-          "title": "블로그",
+          "title": "소현리치랩 블로그",
           "sub": "티스토리",
           "url": "https://sohyun-richlab.tistory.com/",
           "icon": "blog"
         },
         {
           "id": "richlab-instagram",
-          "title": "인스타그램",
+          "title": "소현리치랩 인스타그램",
           "sub": "@sohyun_richlab",
           "url": "https://www.instagram.com/sohyun_richlab/",
           "icon": "insta"
