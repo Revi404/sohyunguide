@@ -76,6 +76,8 @@ img { display: block; max-width: 100%; }
 .pair.blue .pair-head .t { color: #121a2b; }
 .pair.blue .pair-head .t::before { content: ""; display: inline-block; width: 8px; height: 8px; margin: 0 7px 2px 0; border-radius: 2px; background: #f5c342; }
 .pair.blue .pair-head .s { color: #4f5970; }
+.pair-head .s:first-child { font-size: 15px; font-weight: 700; color: var(--ink); }
+.pair.blue .pair-head .s:first-child { color: #121a2b; }
 .pair.blue .pair-btn { background: #2457d6; color: #fff; }
 .pair.blue .pair-btn:nth-child(2) { background: #163a8f; }
 .pair.blue .pair-btn .ic { background: rgba(255,255,255,.16); color: #fff; }
