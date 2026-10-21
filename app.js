@@ -34,12 +34,24 @@
     }
 
     // 바로가기
-    $("#links").innerHTML = cfg.links.filter((l) => !l.hidden).map((l) => `
+    const linkHtml = (l) => `
       <a class="link${l.highlight ? " hl" : ""}${l.color ? " " + esc(l.color) : ""}" href="${esc(l.url)}" ${l.url.startsWith("mailto:") ? "" : 'target="_blank" rel="noopener"'} data-track="${esc(l.id)}">
         <span class="ic">${ICONS[l.icon] || ICONS.link}</span>
         <span class="tx"><span class="t">${esc(l.title)}</span>${l.sub ? `<span class="s">${esc(l.sub)}</span>` : ""}</span>
         <span class="go" aria-hidden="true">→</span>
-      </a>`).join("");
+      </a>`;
+    // type "pair": 다른 채널 묶음 — 제목·설명 아래 버튼 2개를 가로로
+    const pairHtml = (g) => `
+      <div class="pair${g.color ? " " + esc(g.color) : ""}">
+        <p class="pair-head"><span class="t">${esc(g.title)}</span>${g.sub ? `<span class="s">${esc(g.sub)}</span>` : ""}</p>
+        <div class="pair-row">${g.items.map((l) => `
+          <a class="pair-btn" href="${esc(l.url)}" target="_blank" rel="noopener" data-track="${esc(l.id)}">
+            <span class="ic">${ICONS[l.icon] || ICONS.link}</span>
+            <span class="tx"><span class="t">${esc(l.title)}</span>${l.sub ? `<span class="s">${esc(l.sub)}</span>` : ""}</span>
+          </a>`).join("")}
+        </div>
+      </div>`;
+    $("#links").innerHTML = cfg.links.filter((l) => !l.hidden).map((l) => (l.type === "pair" ? pairHtml(l) : linkHtml(l))).join("");
 
     // 추천템 = 직접 등록 상품(위) + 블로그 자동 수집
     const items = [

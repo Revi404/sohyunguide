@@ -59,6 +59,26 @@ img { display: block; max-width: 100%; }
 .link.pink { background: #d62a6b; border-color: transparent; color: #fff; }
 .link.pink .ic { background: #fde4ee; color: #c8235f; }
 .link.pink .s, .link.pink .go { color: rgba(255,255,255,.88); }
+/* 다른 채널 묶음(가로 버튼 2개). 파란색 = 소현리치랩 */
+.pair { padding: 14px; background: var(--card); border: 1px solid var(--line-soft); border-radius: var(--r-md); box-shadow: var(--shadow-sm); }
+.pair-head { display: flex; flex-direction: column; gap: 2px; padding: 0 4px 12px; }
+.pair-head .t { font-weight: 800; font-size: 16px; letter-spacing: -.02em; }
+.pair-head .s { font-size: 13px; color: var(--ink-soft); }
+.pair-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.pair-btn { display: flex; align-items: center; gap: 10px; min-width: 0; min-height: 56px; padding: 10px 12px; border-radius: var(--r-sm); background: var(--accent-soft); color: var(--accent-deep); transition: transform .15s ease; }
+.pair-btn:active { transform: scale(.97); }
+.pair-btn .ic { flex: none; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; background: var(--card); }
+.pair-btn .ic svg { width: 17px; height: 17px; }
+.pair-btn .tx { min-width: 0; }
+.pair-btn .t { display: block; font-weight: 700; font-size: 14px; letter-spacing: -.02em; }
+.pair-btn .s { display: block; font-size: 11px; opacity: .8; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pair.blue { background: #e3ebfb; border-color: transparent; }
+.pair.blue .pair-head .t { color: #121a2b; }
+.pair.blue .pair-head .t::before { content: ""; display: inline-block; width: 8px; height: 8px; margin: 0 7px 2px 0; border-radius: 2px; background: #f5c342; }
+.pair.blue .pair-head .s { color: #4f5970; }
+.pair.blue .pair-btn { background: #2457d6; color: #fff; }
+.pair.blue .pair-btn:nth-child(2) { background: #163a8f; }
+.pair.blue .pair-btn .ic { background: rgba(255,255,255,.16); color: #fff; }
 
 /* 탭 */
 .tabs { position: sticky; top: 0; z-index: 5; display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; margin: 0 -4px 14px; background: var(--paper-2); border: 1px solid var(--line-soft); border-radius: var(--r-pill); box-shadow: var(--shadow-sm); }

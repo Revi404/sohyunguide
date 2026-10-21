@@ -29,6 +29,29 @@
       "color": "pink"
     },
     {
+      "id": "richlab",
+      "type": "pair",
+      "title": "소현리치랩",
+      "sub": "청약 캘린더 · 분양가 분석 · 투자 및 재테크",
+      "color": "blue",
+      "items": [
+        {
+          "id": "richlab-blog",
+          "title": "블로그",
+          "sub": "티스토리",
+          "url": "https://sohyun-richlab.tistory.com/",
+          "icon": "blog"
+        },
+        {
+          "id": "richlab-instagram",
+          "title": "인스타그램",
+          "sub": "@sohyun_richlab",
+          "url": "https://www.instagram.com/sohyun_richlab/",
+          "icon": "insta"
+        }
+      ]
+    },
+    {
       "id": "contact",
       "title": "협업 문의",
       "sub": "revi404@naver.com",
