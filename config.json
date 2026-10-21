@@ -22,11 +22,33 @@
     },
     {
       "id": "instagram",
-      "title": "소현 인스타그램",
+      "title": "소현생정 인스타그램",
       "sub": "@sohyun_guide · 가성비 꿀템 릴스",
       "url": "https://www.instagram.com/sohyun_guide/",
       "icon": "insta",
       "color": "pink"
+    },
+    {
+      "id": "richlab",
+      "type": "pair",
+      "sub": "청약 · 부동산 투자 및 재테크가 궁금하다면",
+      "color": "blue",
+      "items": [
+        {
+          "id": "richlab-blog",
+          "title": "소현리치랩\n티스토리 블로그",
+          "sub": "sohyun-richlab",
+          "url": "https://sohyun-richlab.tistory.com/",
+          "icon": "blog"
+        },
+        {
+          "id": "richlab-instagram",
+          "title": "소현리치랩\n인스타그램",
+          "sub": "@sohyun_richlab",
+          "url": "https://www.instagram.com/sohyun_richlab/",
+          "icon": "insta"
+        }
+      ]
     },
     {
       "id": "contact",

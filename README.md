@@ -20,6 +20,7 @@
 |---|---|
 | 상단 공지 띄우기 | `notice.show`를 `true`, `text`·`url` 입력 |
 | 바로가기 버튼 추가 | `links`에 항목 추가 (`icon`: blog·mail·insta·youtube·link) |
+| 다른 채널 묶음(가로 버튼 2개) | `links`에 `"type": "pair"` 항목(`title`·`sub`·`color`·`items` 2개). 지금은 소현리치랩 블로그·인스타 (`color`: `blue`) |
 | 블로그 밖 상품 직접 추가 | `products`에 항목 추가 (아래 예시) |
 | 자동 수집된 상품 숨기기 | `affiliate.hidden`에 그 상품의 제휴 URL 추가 |
 | 새 제휴처 인식 | `affiliate.rules`에 `{ "partner": "이름", "match": ["도메인"] }` 추가 |
