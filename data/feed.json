@@ -1,6 +1,40 @@
 {
- "updated": "2026-10-24 16:10",
+ "updated": "2026-10-24 21:11",
  "posts": {
+  "여행 I 식도락": [
+   {
+    "title": "전주 1박2일 코스 | 한옥마을 골목 투어·원도심 저녁 투어·숙소 가격 비교",
+    "url": "https://blog.naver.com/teanotcar/224452397737",
+    "date": "2026-10-24",
+    "summary": "안녕하세요, 소현생정이에요! 늦가을에 KTX 타고 가볍게 다녀올 곳 찾다 보면 한옥마을 하나만 보고 오기엔 아쉬운 곳이 전주더라고요. 그래서 오늘은 전주 1박2일",
+    "category": "여행 I 식도락",
+    "thumb": "assets/thumbs/2fd3c47de0bf1e3e.jpg"
+   },
+   {
+    "title": "보홀 패키지 3박5일 비교 | 헤난 리조트 에어텔·노쇼핑 가격과 자유여행 경비",
+    "url": "https://blog.naver.com/teanotcar/224450517447",
+    "date": "2026-10-22",
+    "summary": "안녕하세요, 소현생정이에요! 날이 쌀쌀해지니까 따뜻한 바다 생각이 나죠? 근데 보홀은 에어텔, 노쇼핑 패키지, 특가 패키지가 섞여 있어서 비교가 은근 헷갈리더라고",
+    "category": "여행 I 식도락",
+    "thumb": "assets/thumbs/2f797a0e7fde5143.jpg"
+   },
+   {
+    "title": "경주 1박2일 코스 | 첨성대 야경 투어·불국사 해설 투어·숙소 가격 비교",
+    "url": "https://blog.naver.com/teanotcar/224448155748",
+    "date": "2026-10-20",
+    "summary": "안녕하세요, 소현생정이에요! 단풍 드는 11월, 경주 한 번 가 볼까 하다가도 하루 반 만에 뭘 봐야 할지 막막하더라고요. 그래서 오늘은 경주 1박2일 코스를 야",
+    "category": "여행 I 식도락",
+    "thumb": "assets/thumbs/e3a9a059cddb15e8.jpg"
+   },
+   {
+    "title": "잠실새내 러스크러스크 | 낮술 데이트하기 좋은 위스키 바",
+    "url": "https://blog.naver.com/teanotcar/224446379927",
+    "date": "2026-10-19",
+    "summary": "본 포스팅은 러스크러스크로부터 메뉴를 제공받아 솔직하게 작성했습니다. 안녕하세요, 소현생정이에요! 오늘은 남자친구랑 잠실새내낮술 하기 좋은 곳 찾다가 LP 들으며",
+    "category": "여행 I 식도락",
+    "thumb": "assets/thumbs/ec2dc8f4c0815850.jpg"
+   }
+  ],
   "리빙포인트 I 꿀템": [
    {
     "title": "분리수거 트롤리 고르는 법 | 품목별 칸 구성·크기·바퀴 체크 기준",
@@ -33,40 +67,6 @@
     "summary": "안녕하세요, 소현생정이에요! 오늘은 컨벡션 히터 전기세 계산하는 방법을 정리해 볼게요. [세줄요약] 컨벡션 히터 전기세는 '소비전력(W) ÷ 1,000 × 사용 ",
     "category": "리빙포인트 I 꿀템",
     "thumb": "assets/thumbs/5704ba963e607264.jpg"
-   }
-  ],
-  "여행 I 식도락": [
-   {
-    "title": "보홀 패키지 3박5일 비교 | 헤난 리조트 에어텔·노쇼핑 가격과 자유여행 경비",
-    "url": "https://blog.naver.com/teanotcar/224450517447",
-    "date": "2026-10-22",
-    "summary": "안녕하세요, 소현생정이에요! 날이 쌀쌀해지니까 따뜻한 바다 생각이 나죠? 근데 보홀은 에어텔, 노쇼핑 패키지, 특가 패키지가 섞여 있어서 비교가 은근 헷갈리더라고",
-    "category": "여행 I 식도락",
-    "thumb": "assets/thumbs/2f797a0e7fde5143.jpg"
-   },
-   {
-    "title": "경주 1박2일 코스 | 첨성대 야경 투어·불국사 해설 투어·숙소 가격 비교",
-    "url": "https://blog.naver.com/teanotcar/224448155748",
-    "date": "2026-10-20",
-    "summary": "안녕하세요, 소현생정이에요! 단풍 드는 11월, 경주 한 번 가 볼까 하다가도 하루 반 만에 뭘 봐야 할지 막막하더라고요. 그래서 오늘은 경주 1박2일 코스를 야",
-    "category": "여행 I 식도락",
-    "thumb": "assets/thumbs/e3a9a059cddb15e8.jpg"
-   },
-   {
-    "title": "잠실새내 러스크러스크 | 낮술 데이트하기 좋은 위스키 바",
-    "url": "https://blog.naver.com/teanotcar/224446379927",
-    "date": "2026-10-19",
-    "summary": "본 포스팅은 러스크러스크로부터 메뉴를 제공받아 솔직하게 작성했습니다. 안녕하세요, 소현생정이에요! 오늘은 남자친구랑 잠실새내낮술 하기 좋은 곳 찾다가 LP 들으며",
-    "category": "여행 I 식도락",
-    "thumb": "assets/thumbs/ec2dc8f4c0815850.jpg"
-   },
-   {
-    "title": "플라비 써지컬팔찌 만들기 | 송파 석촌호수 이색데이트 후기",
-    "url": "https://blog.naver.com/teanotcar/224446350939",
-    "date": "2026-10-19",
-    "summary": "본 포스팅은 플라비로부터 원데이클래스를 제공받아 솔직하게 작성했습니다. 안녕하세요, 소현생정이에요! 오늘은 송파데이트로 다녀온 잠실공방 플라비 팔찌 원데이클래스 ",
-    "category": "여행 I 식도락",
-    "thumb": "assets/thumbs/f56354284dd00d7e.jpg"
    }
   ],
   "재테크 I 청약노트": [
@@ -115,6 +115,78 @@
   ]
  },
  "affiliates": [
+  {
+   "title": "한옥마을 골목 한바퀴 투어",
+   "url": "https://myrealt.rip/y9pOc8",
+   "partner": "마이리얼트립",
+   "postTitle": "전주 1박2일 코스 | 한옥마을 골목 투어·원도심 저녁 투어·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224452397737",
+   "category": "여행 I 식도락",
+   "date": "2026-10-24",
+   "price": "",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/c32b5c9f341c0335.jpg"
+  },
+  {
+   "title": "원도심 로컬투어 '전라감영과 전주부성'",
+   "url": "https://myrealt.rip/y9pQ5f",
+   "partner": "마이리얼트립",
+   "postTitle": "전주 1박2일 코스 | 한옥마을 골목 투어·원도심 저녁 투어·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224452397737",
+   "category": "여행 I 식도락",
+   "date": "2026-10-24",
+   "price": "",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/e8c5ca1bf23777cd.jpg"
+  },
+  {
+   "title": "원도심 로컬투어 '근현대 역사 문화 100년'",
+   "url": "https://myrealt.rip/y9pP89",
+   "partner": "마이리얼트립",
+   "postTitle": "전주 1박2일 코스 | 한옥마을 골목 투어·원도심 저녁 투어·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224452397737",
+   "category": "여행 I 식도락",
+   "date": "2026-10-24",
+   "price": "",
+   "kind": "투어·티켓",
+   "thumb": "assets/thumbs/304b5bca246b211a.jpg"
+  },
+  {
+   "title": "전주 한옥마을덕수궁펜션 요금 보기",
+   "url": "https://myrealt.rip/y9pTda",
+   "partner": "마이리얼트립",
+   "postTitle": "전주 1박2일 코스 | 한옥마을 골목 투어·원도심 저녁 투어·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224452397737",
+   "category": "여행 I 식도락",
+   "date": "2026-10-24",
+   "price": "",
+   "kind": "숙소",
+   "thumb": ""
+  },
+  {
+   "title": "전주한옥마을호텔 요금 보기",
+   "url": "https://myrealt.rip/y9pSc4",
+   "partner": "마이리얼트립",
+   "postTitle": "전주 1박2일 코스 | 한옥마을 골목 투어·원도심 저녁 투어·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224452397737",
+   "category": "여행 I 식도락",
+   "date": "2026-10-24",
+   "price": "",
+   "kind": "숙소",
+   "thumb": ""
+  },
+  {
+   "title": "신라스테이 전주 한옥마을 요금 보기",
+   "url": "https://myrealt.rip/y9pRd9",
+   "partner": "마이리얼트립",
+   "postTitle": "전주 1박2일 코스 | 한옥마을 골목 투어·원도심 저녁 투어·숙소 가격 비교",
+   "postUrl": "https://blog.naver.com/teanotcar/224452397737",
+   "category": "여행 I 식도락",
+   "date": "2026-10-24",
+   "price": "",
+   "kind": "숙소",
+   "thumb": ""
+  },
   {
    "title": "보홀 헤난 타왈라 에어텔 3박5일",
    "url": "https://myrealt.rip/xpxAe1",
